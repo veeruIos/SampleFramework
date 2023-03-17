@@ -1,0 +1,27 @@
+{
+  "name": "SampleFramework",
+  "version": "1.0.0",
+  "summary": "SampleFramework with sample code.",
+  "homepage": "https://github.com/veeruIos/SampleFramework",
+  "license": "MIT",
+  "authors": {
+    "Veeru Suthari": "suthari.veeru@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "4.0",
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/veeruIos/SampleFramework.git",
+    "tag": "1.0.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "source_files": "SampleFramework/**/*",
+  "swift_version": "4.0"
+}
